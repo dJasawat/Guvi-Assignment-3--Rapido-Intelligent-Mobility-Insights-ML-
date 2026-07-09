@@ -1,0 +1,13 @@
+
+data:
+  raw_dataPath: data\rawdata
+  processed_path : data\processedData
+
+training:
+  test_size: 0.2
+  random_state: 42
+
+logging:
+  log_dir: logs
+  log_file: training.log
+
